@@ -1,0 +1,36 @@
+body{
+    background-color: #015639;
+    margin: 10vh 10vw 5vh 10vw;
+}
+
+.hori-box {
+    display: inline-flex;
+    align-items: flex-start;
+}
+.box {
+    display: inline-flex;
+    align-items: flex-start;
+    flex-flow: column;
+}
+
+.card {
+    font-family: 'PT Serif', serif;
+    background-color: white;
+    padding: 2vh 2vw 2vh 2vw;
+    margin: 2vh 2vw 2vh 0vw;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+/* Logo and Title in the Upper left.  */
+#logo{
+    height: 15vh;
+    padding-right: 1vw;
+}
+
+#title{
+    font-size: 5vh;
+    color: white;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+}
